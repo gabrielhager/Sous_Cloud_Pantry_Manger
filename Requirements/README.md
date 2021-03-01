@@ -28,7 +28,7 @@ User Stories, Use Cases, UML Diagram, and Requirements
 
 ## Use-Cases Diagram (UML)
 
-![UML](PLACE HOLDER)
+![UML](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/blob/main/Requirements/UMLDiagram.jpg)
 
 
 ## Requirements
