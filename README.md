@@ -15,3 +15,5 @@ Many families struggle with wasteful grocery shopping habits and have kitchen pa
 
 ### Recipe Book (Draft)
 ![](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/blob/main/MyRecipesMock.jpeg)
+
+[Requirements](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/tree/main/Requirements)
