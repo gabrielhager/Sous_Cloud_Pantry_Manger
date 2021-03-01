@@ -34,15 +34,15 @@ User Stories, Use Cases, UML Diagram, and Requirements
 ## Requirements
 1. The system Shall authenticate users based on username password key/value pair.
       
-2. The system shall have an inventory of all consumable items in a user's kitchen.
+2. The system shall allow users to create an inventory of all consumable items in his or her kitchen.
    1. (2.1) The system shall parse the inventory.
       1.  (2.1.1) The system shall check if menu item ingredients are present.
       2.  (2.1.2) The system shall notify users when an inventory item is expired.
-   2. (2.2) The system shall allow users to mannual add inventory items to their pantry. 
-   3. (2.3) The system shall allow users to create separate pantry locations id: pantry, refrigerator, deep freezer.
+   2. (2.2) The system shall allow users to mannualy add inventory items to their pantry. 
+   3. (2.3) The system shall allow users to create separate pantry locations ie: pantry, refrigerator, deep freezer.
    
 3. The system shall have a grocery shopping list. 
-   1. (3.1) The system shall remove items from the grocery shopping list after items have been purchased.
+   1. (3.1) The system shall remove items from the grocery shopping list after items have been purchased upon verification by the user.
    
 4. The system shall have a menu that allows for custom user created menu recipe items.
    1. (4.1) The system shall auto generate items to the grocery list when a menu recipe item is selected.
