@@ -1,0 +1,15 @@
+## Use Cases
+
+1.	Given a scheduled calendar date to cook a meal when that date has passed then confirm with the user and remove the recipe items from the current inventory.
+
+2.	Given a custom built recipe when the required items are not currently in the inventory and the user clicks the “add” button then add the required recipe items to the grocery list.
+
+3.	Given a custom built recipe  when all required items are currently in the inventory then notify the user that the meal is available to be cooked.
+
+4.	Given a list of ingredients provided by the user when the user clicks create recipe then create a new custom built recipe item.
+
+5.	Given a grocery shopping list when the user clicks the “shopping complete” button then add all items from the grocery list to the inventory and clear the grocery list.
+
+6.	Given a meal calendar when the user clicks the “schedule a meal button” then add the selected recipe to the meal calendar.
+
+7.	Given an inventory item expiration date when the expiration date has passed then notify the user that the inventory item has expired.
