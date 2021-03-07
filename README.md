@@ -103,5 +103,4 @@ Many families struggle with wasteful grocery shopping habits and have kitchen pa
 | 8       | 3.1.0          | (Demonstration) Items are added to the Grocery Shopping List and are removed when the user clicks "done shopping"                                                                   | Not Tested |  |
 | 9       | 4.1.0          | The user clicks "add menu item" and all ingredients are added to the Grocery Shopping List                                                                                          | Not Tested |  |
 | 10      | 5.1.0          | In the Meal Calendar, the user clicks on a day and is able to add a meal with the "schedule meal" button                                                                            | Not Tested |  |
-| 11      | 5.2.0          | The user is notified when a meal is complete, upon clicking "verify" the Menu Item ingredients are removed from the pantry inventory   
-| Not Tested |  |
+| 11      | 5.2.0          | The user is notified when a meal is complete, upon clicking "verify" the Menu Item ingredients are removed from the pantry inventory   | Not Tested |  
