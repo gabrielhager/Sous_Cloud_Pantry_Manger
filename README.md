@@ -16,7 +16,7 @@
 #### <div alignt="Left"> Concept</div> [Return to Table of Contents](#table-of-contents)
 Many families struggle with wasteful grocery shopping habits and have kitchen pantries that are far too full. Sous: Cloud Pantry Manager is a cloud-based solution to assist families who struggle keeping their food products organized. At the most basic level, Sous is a database inventory of all food related items located in a family’s kitchen. Information can be powerful, if leveraged properly, and Sous will allow users to make meaningful, time saving decisions based on their kitchen data with some key features.
 
-# <a name="Entity Relationship Diagram"></a>
+# <a name="Entity-Relationship-Diagram"></a>
 #### <div alignt="Left"> Entity Relationship Diagram</div> [Return to Table of Contents](#table-of-contents)
 ![](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/blob/main/ProjectStep4ERD_GabrielHagerSD9.jpg)
 
@@ -46,7 +46,7 @@ Many families struggle with wasteful grocery shopping habits and have kitchen pa
 
 7.	Given an inventory item expiration date when the expiration date has passed then notify the user that the inventory item has expired.
 
-# <a name="Use Case Diagram"></a>
+# <a name="Use-Case-Diagram"></a>
 #### <div alignt="Left"> Use Case Diagram</div> [Return to Table of Contents](#table-of-contents)
 ![Use Case Diagram](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/blob/main/Requirements/UMLDiagram.jpg)
 
