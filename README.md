@@ -68,25 +68,24 @@ Many families struggle with wasteful grocery shopping habits and have kitchen pa
 
 # <a name="Requirements-List"></a>
 #### <div alignt="Left"> Requirements List</div> [Return to Table of Contents](#table-of-contents)
-#### [Requirements List](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/blob/main/Requirements/RequirementsList):
-1. The system Shall authenticate users based on username password key/value pair.
-      
-2. The system shall allow users to create an inventory of all consumable items in his or her kitchen.
-   2.1 The system shall parse the inventory.
-      2.1.1  The system shall check if menu item ingredients are present.
-      2.1.2  The system shall notify users when an inventory item is expired.
-   2.2 The system shall allow users to mannualy add inventory items to their pantry. 
-   2.3 The system shall allow users to create separate pantry locations ie: pantry, refrigerator, deep freezer.
-   
-3. The system shall have a grocery shopping list. 
-   3.1 The system shall remove items from the grocery shopping list after items have been purchased upon verification by the user.
-   
-4. The system shall have a menu that allows for custom user created menu recipe items.
-   4.1 The system shall auto generate items to the grocery list when a menu recipe item is selected.
-   
-5. The system shall have a meal calendar.
-   5.1. The system shall allow users to add menu recipe items to the meal calendar.
-   5.2. The system shall remove items from the inventory after the scheduled calendar date has passed.
+#### [Requirements List](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/blob/main/Requirements/RequirementsList)
+
+| Requirement ID | Requirement                                                                                         | Test Method   | Test ID |
+|----------------|-----------------------------------------------------------------------------------------------------|---------------|---------|
+| 1.0.0          | The system Shall authenticate users based on username password key/value pair.                      | Test          | 1       |
+| 2.0.0          | The system shall allow users to create an inventory of all consumable items in his or her kitchen.  | Test          | 1       |
+| 2.1.0          | The system shall parse the inventory.                                                               | Test          | 1       |
+| 2.1.1          | The system shall check if menu item ingredients are present.                                        | Test          | 1       |
+| 2.1.2          | The system shall notify users when an inventory item is expired.                                    | Test          | 1       |
+| 2.2.0          | The system shall allow users to mannualy add inventory items to their pantry.                       | Test          | 1       | 
+| 2.3.0          | The system shall allow users to create separate pantry locations ie: pantry, refrigerator, deep freezer. | Test          | 1       | 
+|3.0.0           | The system shall have a grocery shopping list.                                                      | Test          | 1       | 
+|3.1.0           | The system shall remove items from the grocery shopping list after items have been purchased upon verification by the user. | Test          | 1       |    
+|4.0.0           | The system shall have a menu that allows for custom user created menu recipe items.                 | Test          | 1       | 
+|4.1.0           | The system shall auto generate items to the grocery list when a menu recipe item is selected.       | Test          | 1       |  
+|5.0.0           | The system shall have a meal calendar.                                                              | Test          | 1       | 
+|5.1.0           | The system shall allow users to add menu recipe items to the meal calendar.                         | Test          | 1       | 
+|5.2.0           | The system shall remove items from the inventory after the scheduled calendar date has passed.      | Test          | 1       | 
 
 # <a name="Test-Table"></a>
 #### <div align="Left"> Test Table</div>  [Return to Table of Contents](#table-of-contents)
