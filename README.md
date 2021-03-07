@@ -73,23 +73,23 @@ Many families struggle with wasteful grocery shopping habits and have kitchen pa
 | Requirement ID | Requirement                                                                                         | Test Method   | Test ID |
 |----------------|-----------------------------------------------------------------------------------------------------|---------------|---------|
 | 1.0.0          | The system Shall authenticate users based on username password key/value pair.                      | Test          | 1       |
-| 2.0.0          | The system shall allow users to create an inventory of all consumable items in his or her kitchen.  | Test          | 1       |
-| 2.1.0          | The system shall parse the inventory.                                                               | Test          | 1       |
-| 2.1.1          | The system shall check if menu item ingredients are present.                                        | Test          | 1       |
-| 2.1.2          | The system shall notify users when an inventory item is expired.                                    | Test          | 1       |
-| 2.2.0          | The system shall allow users to mannualy add inventory items to their pantry.                       | Test          | 1       | 
-| 2.3.0          | The system shall allow users to create separate pantry locations ie: pantry, refrigerator, deep freezer. | Test          | 1       | 
-|3.0.0           | The system shall have a grocery shopping list.                                                      | Test          | 1       | 
-|3.1.0           | The system shall remove items from the grocery shopping list after items have been purchased upon verification by the user. | Test          | 1       |    
-|4.0.0           | The system shall have a menu that allows for custom user created menu recipe items.                 | Test          | 1       | 
-|4.1.0           | The system shall auto generate items to the grocery list when a menu recipe item is selected.       | Test          | 1       |  
-|5.0.0           | The system shall have a meal calendar.                                                              | Test          | 1       | 
-|5.1.0           | The system shall allow users to add menu recipe items to the meal calendar.                         | Test          | 1       | 
-|5.2.0           | The system shall remove items from the inventory after the scheduled calendar date has passed.      | Test          | 1       | 
+| 2.0.0          | The system shall allow users to create an inventory of all consumable items in his or her kitchen.  | Test          | 2       |
+| 2.1.0          | The system shall parse the inventory.                                                               | Test          | 3       |
+| 2.1.1          | The system shall check if menu item ingredients are present.                                        | Test          | 3       |
+| 2.1.2          | The system shall notify users when an inventory item is expired.                                    | Test          | 4       |
+| 2.2.0          | The system shall allow users to mannualy add inventory items to their pantry.                       | Test          | 5       | 
+| 2.3.0          | The system shall allow users to create separate pantry locations ie: pantry, refrigerator, deep freezer. | Test          | 6       | 
+|3.0.0           | The system shall have a grocery shopping list.                                                      | Test          | 7      | 
+|3.1.0           | The system shall remove items from the grocery shopping list after items have been purchased upon verification by the user. | Test          | 8       |    
+|4.0.0           | The system shall have a menu that allows for custom user created menu recipe items.                 | Test          | 7       | 
+|4.1.0           | The system shall auto generate items to the grocery list when a menu recipe item is selected.       | Test          | 9       |  
+|5.0.0           | The system shall have a meal calendar.                                                              | Test          | 7       | 
+|5.1.0           | The system shall allow users to add menu recipe items to the meal calendar.                         | Test          | 10      | 
+|5.2.0           | The system shall remove items from the inventory after the scheduled calendar date has passed.      | Test          | 11      | 
 
 # <a name="Test-Table"></a>
 #### <div align="Left"> Test Table</div>  [Return to Table of Contents](#table-of-contents)
-[Test Table] TO DO
+#### [Test Table](https://github.com/gabrielhager/Sous_Cloud_Pantry_Manger/blob/main/Requirements/Tests)
 
 | Test ID | Requirement ID | Test Procedure                                                                                                                                                                      | Status     | Time Stamp |
 |---------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------|------------|
@@ -104,3 +104,4 @@ Many families struggle with wasteful grocery shopping habits and have kitchen pa
 | 9       | 4.1.0          | The user clicks "add menu item" and all ingredients are added to the Grocery Shopping List                                                                                          | Not Tested |  |
 | 10      | 5.1.0          | In the Meal Calendar, the user clicks on a day and is able to add a meal with the "schedule meal" button                                                                            | Not Tested |  |
 | 11      | 5.2.0          | The user is notified when a meal is complete, upon clicking "verify" the Menu Item ingredients are removed from the pantry inventory   
+| Not Tested |  |
