@@ -1,0 +1,19 @@
+## Requirements
+1. The system Shall authenticate users based on username password key/value pair.
+      
+2. The system shall allow users to create an inventory of all consumable items in his or her kitchen.
+   2.1 The system shall parse the inventory.
+      2.1.1  The system shall check if menu item ingredients are present.
+      2.1.2  The system shall notify users when an inventory item is expired.
+   2.2 The system shall allow users to mannualy add inventory items to their pantry. 
+   2.3 The system shall allow users to create separate pantry locations ie: pantry, refrigerator, deep freezer.
+   
+3. The system shall have a grocery shopping list. 
+   3.1 The system shall remove items from the grocery shopping list after items have been purchased upon verification by the user.
+   
+4. The system shall have a menu that allows for custom user created menu recipe items.
+   4.1 The system shall auto generate items to the grocery list when a menu recipe item is selected.
+   
+5. The system shall have a meal calendar.
+   5.1. The system shall allow users to add menu recipe items to the meal calendar.
+   5.2. The system shall remove items from the inventory after the scheduled calendar date has passed.
