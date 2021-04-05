@@ -1,0 +1,6 @@
+C:\Users\gabri\source\repos\Sous_Cloud_Pantry\SousData\bin\Debug\SousData.dacpac
+C:\Users\gabri\source\repos\Sous_Cloud_Pantry\SousData\bin\Debug\SousData.dll
+C:\Users\gabri\source\repos\Sous_Cloud_Pantry\SousData\bin\Debug\SousData.pdb
+C:\Users\gabri\source\repos\Sous_Cloud_Pantry\SousData\obj\Debug\SousData.sqlprojAssemblyReference.cache
+C:\Users\gabri\source\repos\Sous_Cloud_Pantry\SousData\obj\Debug\SousData.dll
+C:\Users\gabri\source\repos\Sous_Cloud_Pantry\SousData\obj\Debug\SousData.pdb

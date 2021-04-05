@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sous_Cloud_Pantry", "Sous_Cloud_Pantry\Sous_Cloud_Pantry.csproj", "{C4813BAF-A349-48D7-A107-D3AD0AFEB11B}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SousData", "SousData\SousData.sqlproj", "{5A2A67C7-BE82-4C92-B1E2-995DD5F4BC8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4813BAF-A349-48D7-A107-D3AD0AFEB11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4813BAF-A349-48D7-A107-D3AD0AFEB11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4813BAF-A349-48D7-A107-D3AD0AFEB11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4813BAF-A349-48D7-A107-D3AD0AFEB11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A67C7-BE82-4C92-B1E2-995DD5F4BC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A67C7-BE82-4C92-B1E2-995DD5F4BC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A67C7-BE82-4C92-B1E2-995DD5F4BC8E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5A2A67C7-BE82-4C92-B1E2-995DD5F4BC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A67C7-BE82-4C92-B1E2-995DD5F4BC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A67C7-BE82-4C92-B1E2-995DD5F4BC8E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FA82AB4-1B84-41D6-98C7-DAD0D9FA9D50}
+	EndGlobalSection
+EndGlobal
