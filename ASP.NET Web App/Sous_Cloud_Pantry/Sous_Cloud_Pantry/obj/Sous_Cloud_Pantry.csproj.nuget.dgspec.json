@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gabri\\source\\repos\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj": {}
+    "C:\\Users\\gabri\\Documents\\GitHub\\Sous_Cloud_Pantry_Manger\\ASP.NET Web App\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gabri\\source\\repos\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj": {
+    "C:\\Users\\gabri\\Documents\\GitHub\\Sous_Cloud_Pantry_Manger\\ASP.NET Web App\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gabri\\source\\repos\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj",
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\GitHub\\Sous_Cloud_Pantry_Manger\\ASP.NET Web App\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj",
         "projectName": "Sous_Cloud_Pantry",
-        "projectPath": "C:\\Users\\gabri\\source\\repos\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj",
+        "projectPath": "C:\\Users\\gabri\\Documents\\GitHub\\Sous_Cloud_Pantry_Manger\\ASP.NET Web App\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj",
         "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gabri\\source\\repos\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\obj\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\GitHub\\Sous_Cloud_Pantry_Manger\\ASP.NET Web App\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",

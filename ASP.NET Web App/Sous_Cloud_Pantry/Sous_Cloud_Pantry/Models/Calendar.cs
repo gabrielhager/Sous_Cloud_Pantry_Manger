@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace Sous_Cloud_Pantry.Models
+namespace Sous_Cloud_Pantry.models
 {
     public partial class Calendar
     {
@@ -11,5 +11,7 @@ namespace Sous_Cloud_Pantry.Models
         public DateTime? CalendarDay { get; set; }
         public DateTime? CalendarMonth { get; set; }
         public DateTime? CalendarYear { get; set; }
+
+        public virtual UserTable User { get; set; }
     }
 }

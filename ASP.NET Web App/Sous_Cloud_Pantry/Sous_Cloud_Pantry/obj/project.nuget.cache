@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u3w95eb0Ac805kGCxU5uTDMuvxSqAJjXkZaqkdGtF91Q/cfZLEPp4NRAc6RFSxLMQP0w/nDWJiYo7BveFvTciA==",
+  "dgSpecHash": "ztfnzD3l62ZVHqAtPqTBZ6s0pxO8+i0ZwSl8gyLn/wJ0BUOFZQuVjF1ZW7C6boUDpajxOxCj1gONaQIAbc6/Mg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gabri\\source\\repos\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj",
+  "projectFilePath": "C:\\Users\\gabri\\Documents\\GitHub\\Sous_Cloud_Pantry_Manger\\ASP.NET Web App\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry\\Sous_Cloud_Pantry.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gabri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\gabri\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

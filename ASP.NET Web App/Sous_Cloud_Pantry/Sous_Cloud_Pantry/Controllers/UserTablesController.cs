@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Sous_Cloud_Pantry.Models;
+using Sous_Cloud_Pantry.models;
 
 namespace Sous_Cloud_Pantry.Controllers
 {
     public class UserTablesController : Controller
     {
-        private readonly SousDataContext _context;
+        private readonly SousKitchenPantryDBContext _context;
 
-        public UserTablesController(SousDataContext context)
+        public UserTablesController(SousKitchenPantryDBContext context)
         {
             _context = context;
         }

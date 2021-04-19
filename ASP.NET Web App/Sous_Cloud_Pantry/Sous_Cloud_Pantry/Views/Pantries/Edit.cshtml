@@ -1,4 +1,4 @@
-﻿@model Sous_Cloud_Pantry.Models.Pantry
+﻿@model Sous_Cloud_Pantry.models.Pantry
 
 @{
     ViewData["Title"] = "Edit";
@@ -14,7 +14,7 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="UserId" class="control-label"></label>
-                <input asp-for="UserId" class="form-control" />
+                <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
                 <span asp-validation-for="UserId" class="text-danger"></span>
             </div>
             <input type="hidden" asp-for="PantryLocation" />

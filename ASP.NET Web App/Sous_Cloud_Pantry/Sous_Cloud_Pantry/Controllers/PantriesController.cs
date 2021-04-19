@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Sous_Cloud_Pantry.Models;
+using Sous_Cloud_Pantry.models;
 
 namespace Sous_Cloud_Pantry.Controllers
 {
     public class PantriesController : Controller
     {
-        private readonly SousDataContext _context;
+        private readonly SousKitchenPantryDBContext _context;
 
-        public PantriesController(SousDataContext context)
+        public PantriesController(SousKitchenPantryDBContext context)
         {
             _context = context;
         }
@@ -21,7 +21,8 @@ namespace Sous_Cloud_Pantry.Controllers
         // GET: Pantries
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Pantries.ToListAsync());
+            var sousKitchenPantryDBContext = _context.Pantries.Include(p => p.User);
+            return View(await sousKitchenPantryDBContext.ToListAsync());
         }
 
         // GET: Pantries/Details/5
@@ -33,6 +34,7 @@ namespace Sous_Cloud_Pantry.Controllers
             }
 
             var pantry = await _context.Pantries
+                .Include(p => p.User)
                 .FirstOrDefaultAsync(m => m.PantryLocation == id);
             if (pantry == null)
             {
@@ -45,6 +47,7 @@ namespace Sous_Cloud_Pantry.Controllers
         // GET: Pantries/Create
         public IActionResult Create()
         {
+            ViewData["UserId"] = new SelectList(_context.UserTables, "UserId", "UserId");
             return View();
         }
 
@@ -61,6 +64,7 @@ namespace Sous_Cloud_Pantry.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UserId"] = new SelectList(_context.UserTables, "UserId", "UserId", pantry.UserId);
             return View(pantry);
         }
 
@@ -77,6 +81,7 @@ namespace Sous_Cloud_Pantry.Controllers
             {
                 return NotFound();
             }
+            ViewData["UserId"] = new SelectList(_context.UserTables, "UserId", "UserId", pantry.UserId);
             return View(pantry);
         }
 
@@ -112,6 +117,7 @@ namespace Sous_Cloud_Pantry.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UserId"] = new SelectList(_context.UserTables, "UserId", "UserId", pantry.UserId);
             return View(pantry);
         }
 
@@ -124,6 +130,7 @@ namespace Sous_Cloud_Pantry.Controllers
             }
 
             var pantry = await _context.Pantries
+                .Include(p => p.User)
                 .FirstOrDefaultAsync(m => m.PantryLocation == id);
             if (pantry == null)
             {
