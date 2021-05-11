@@ -1,5 +1,5 @@
 # Sous: Cloud Pantry Manger 
-### THIS IS AN OUTDATED VERSION OF THE PROJECT. 
+### 🚧THIS IS AN OUTDATED VERSION OF THE PROJECT🚧 
 ![CLICK HERE](https://github.com/gabrielhager/Sous_Cloud_Pantry_V2) for the updated current project. (Currently in process of migrating project files)
 ## [Table of Contents](#table-of-contents)
 1) [Concept](#Concept)
